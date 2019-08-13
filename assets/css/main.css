@@ -145,12 +145,25 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 33.3%;
+
+			
+		}
+/* ------------------------------------------------------------------------------ */
+/* --------------------------- Work page Border Effects / REsizing ----------------------------------- */
+/* ------------------------------------------------------------------------------ */
+		.row > .col-4 img{
+			height: 165px;
+			border: 2px dashed pink;
+			padding: 10px;
+			
+			
 		}
 
 		.row > .off-4 {
 			margin-left: 33.33333%;
 		}
+/* ------------------------------------------------------------------------------ */
 
 		.row > .col-5 {
 			width: 41.66667%;
@@ -270,10 +283,12 @@ input, select, textarea {
 		.row {
 			margin-top: -1.25em;
 			margin-left: -1.25em;
+			
 		}
 
 			.row > * {
 				padding: 1.25em 0 0 1.25em;
+				
 			}
 
 			.row.gtr-uniform {
@@ -1551,6 +1566,7 @@ input, select, textarea {
 
 	.image {
 		display: inline-block;
+		
 	}
 
 		.image img {
@@ -2193,3 +2209,4 @@ input, select, textarea {
 			}
 
 		}
+
