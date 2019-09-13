@@ -2127,6 +2127,11 @@ input, select, textarea {
 						margin: 0.25em 0 0 0;
 					}
 
+					#main #home header .p3 {
+						font-size: 1.25em;
+						letter-spacing: 1em;
+					}
+
 				@media screen and (max-width: 980px) {
 
 					#main > .panel.intro {
