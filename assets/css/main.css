@@ -153,7 +153,7 @@ input, select, textarea {
 /* --------------------------- Work page Border Effects / REsizing ----------------------------------- */
 /* ------------------------------------------------------------------------------ */
 		.row > .col-4 img{
-			height: 165px;
+			height: 30%;
 			border: 2px dashed pink;
 			padding: 10px;
 			
@@ -2127,6 +2127,11 @@ input, select, textarea {
 						margin: 0.25em 0 0 0;
 					}
 
+					#main #home header .p3 {
+						font-size: 1.25em;
+						letter-spacing: 1em;
+					}
+
 				@media screen and (max-width: 980px) {
 
 					#main > .panel.intro {
@@ -2216,3 +2221,6 @@ input, select, textarea {
 
 		}
 
+.box {
+	text-align: center;
+}
